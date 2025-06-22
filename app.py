@@ -3,7 +3,7 @@ from flask_cors import CORS
 import requests
 
 app = Flask(__name__)
-CORS(app)  # פתרון CORS
+CORS(app)
 
 @app.route('/locate', methods=['POST'])
 def locate():
